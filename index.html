@@ -1,0 +1,89 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<!-- index -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" type="image/png" href="img/smt.png">
+<title>SMT - Feira de Santana</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript"> 
+
+
+function onSubmit(token){
+	document.getElementById('i-recaptcha').submit();
+}
+</script>
+    <!--js-->
+
+</head>
+<body background="img/background.jpg" marginheight="80" bgcolor="#FFD900">
+
+<center>
+<div class="divTop">
+<table class="tabLogo">
+<tr>
+<td class="tdLogo">
+<img src="img/logo.gif">
+</td>
+</tr>
+<tr>
+<td class="tdMensagem">
+</td>
+</tr>
+</table>
+</div>
+<div class="divCorpoLogin">
+<form id="i-recaptcha" method="POST" action="validar.php">
+         <input id='matricula' type="text" size="20" onfocus="this.value=''" class="inputText" name="matricula" placeholder="Matricula, ultimos 4 numeros" required><BR>
+         <input id='senha' type="password" size="20" onfocus="this.value=''" class="inputText" name="senha" placeholder="Password" required><BR>
+   		 <!-- <input id='submit' type="submit" value="Entrar" class="botao" name="entrar"> -->
+   		          <button class="g-recaptcha" data-sitekey="6LfUXDUUAAAAAFqUTKN4-oa0GHkUE8Necz-Gibkx" data-callback="onSubmit" style="width: 260px;
+    height: 35px;
+    background-color: #000000;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	margin-left: 0px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+   	cursor: pointer;">Entrar</button>
+   		<!-- <div class="g-recaptcha" data-sitekey="6LfUXDUUAAAAAFqUTKN4-oa0GHkUE8Necz-Gibkx" data-callback="onSubmit" data-size="invisible"></div> -->
+   		 </form>
+         <p align="right"><a href="index.php?op=remember" class="links"><b>esqueceu a senha?</b></a></p>
+<table>
+<tr>
+<td width="70"><img src="img/brasao.png" width="70" height="65" border="0"></td>
+<td width="190"><font color="#000000" face="verdana, arial" size=1>
+    <b>Superintend&ecirc;ncia<BR>
+    Municipal de Tr&acirc;nsito<br></b>
+    Rua Newton Vieira, sn - S&atilde;o Jo&atilde;o<br>
+    Feira de Santana - Bahia - Brasil<br></font>
+    <?php include_once("versao.php");?>
+</td>
+</tr>
+<tr><td></td><td>
+<a  href="https://letsencrypt.org/" id="LetsEncrypt"><img src="img/le-logo-standard.png" border="0" width="100" height="82"></a>
+
+
+
+</td></tr>
+</table>
+
+</div>
+</center>
+
+</body>
+</html>

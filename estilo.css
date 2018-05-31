@@ -1,0 +1,380 @@
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track:enabled { background-color: #FFFFFF; }
+::-webkit-scrollbar-thumb:vertical { background-color: #000000; }
+::-webkit-scrollbar-thumb:horizontal { background-color: #000000; }
+
+
+.tdRelatorioCoordenadores {
+    font-family: Verdana;
+    color: #000000;
+    font-size: 12pt;
+	font-weight: normal;
+	text-align: left;
+}
+
+.tableRelatorioCoordenadores {
+    font-family: Verdana;
+    color: #000000;
+    font-size: 12pt;
+	font-weight: normal;
+	border: 1px solid #000000;
+}
+
+div.feed {
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+    -moz-opacity:0.8;
+    -webkit-opacity:0.8;	
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    border: 0px solid #947b21;
+    background: #000000;
+}
+
+div.div_centroDeMensagens {
+    bottom: 0;
+    width: 100%;
+    border: 0px solid #947b21;
+}
+
+div.externo {
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.divListarPermutas{	
+	font-size: 10pt;
+	cursor:pointer;
+}
+
+.divTop{
+        vertical-align: top;
+        text-align: center;
+        height:90px;
+        width:260px
+}
+.divCorpoLogin{
+        vertical-align: top;
+        text-align: center;
+        height:200px; 
+        width:260px
+}
+.divCorpoApp{
+        font-family: Verdana;
+        color: #000000;
+        font-size: 10pt;
+	    font-weight: normal;
+        vertical-align: top;
+        text-align: left;
+        height:200px;
+        width:260px
+}
+.tabLogo{
+        border-spacing: 0;
+        border-width: 0;
+        text-align: center;
+        padding: 0;
+        height: 80;
+        width: 260;
+}
+.tdLogo{
+        vertical-align: top;
+        border-spacing: 0;
+        border-width: 0;
+        text-align: left;
+        padding: 0;
+        height: 50;
+        width: 260;
+}
+.tdApp{
+        vertical-align: top;
+        border-spacing: 0;
+        border-width: 0;
+        text-align: center;
+        padding: 0;
+        font-family: Verdana;
+        color: #000000;
+        font-size: 8pt;
+	    font-weight: bold;
+        height: 90;
+        width: 79;
+
+}
+
+#iframe_relatorioCoord {
+        width:260px;
+        padding:0px;
+        overflow-x: hidden;       
+        overflow-y: scroll;
+}
+    
+#texto {
+position: absolute;
+margin-top: -67px;
+margin-left: 59px;
+}
+
+.possuiAtestado{
+        font-family: Verdana;
+        color: #008000;
+        font-size: 9pt;
+	    font-weight: normal;
+
+}
+
+#celula {
+background-color:#FF0000;
+border-radius: 10px;
+
+}
+
+.selectEscala{
+	width: 260; 
+	height: 30px; 
+	margin-right: 0; 
+	margin-top: 0; 
+	margin-bottom: 3; 
+	color: #000000;
+}
+
+.botaoPesquisar{
+     width: 68px;
+     height: 30px;
+     margin-bottom: 3;	
+}
+
+.inputPesquisar{
+	width:185px; 
+	height:30px; 
+	margin-bottom: 3;
+
+}
+
+.marcar{
+	
+}
+
+.botao{
+    width: 260px;
+    height: 35px;
+    background-color: #000000;
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	margin-left: 0px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+.botao:hover{
+	color: #FFFFFF;
+	background-color: #5D5D5D;
+}
+.inputTextArea{
+    width: 260px;
+    height: 170px;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
+.inputText{
+    width: 260px;
+    height: 35px;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
+.inputFoto{
+    width: 200px;
+    height:200px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 8pt;
+	font-weight: bold;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
+.inputArquivo{
+    width: 260px;
+    height:35px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 8pt;
+	font-weight: bold;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
+.selectStatus{
+    width: 130px;
+    height: 35px;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 2px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 130px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
+
+.tdMensagem{
+        vertical-align: middle;
+              border-spacing: 0;
+        border-width: 0;
+        text-align: center;
+        padding: 0;
+        height: 30;
+        width: 260;
+}
+.permuta{
+        vertical-align: middle;
+              border-spacing: 0;
+        border-width: 0;
+        text-align: left;
+        padding: 5;
+        height: 10;
+        font-family: Verdana;
+        color: #000000;
+        font-size: 11pt;
+	    font-weight: normal;
+}
+.links{
+        font-family: Verdana;
+        color: #000000;
+        font-size: 11pt;
+	    font-weight: normal;
+}
+
+.linkfeed{
+        font-family: Verdana;
+        color: #ffffff;
+        font-size: 11px;
+	    font-weight: normal;
+	    text-decoration:none;
+}
+
+.linkListarRelatorio{
+        font-family: Verdana;
+        color: #000000;
+        font-size: 9pt;
+	    font-weight: normal;
+	    text-decoration:none;
+}
+
+.links:active{
+        font-family: Verdana;
+        color: #5D5D5D;
+        font-size: 11pt;
+	    font-weight: normal;
+}
+.inputSenha{
+    width: 160px;
+    height: 35px;
+    background-color: #FFFFFF;
+    font-family: Verdana;
+    color: #C0C0C0;
+    font-size: 9pt;
+	font-weight: bold;
+	padding: 10px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	margin-right: 5px;
+	margin-left: 0px;
+	margin-top:  7px;
+	margin-bottom: 7px;
+}
