@@ -31,22 +31,30 @@
   </script>-->
 
   <link href="build/main.css" rel="stylesheet">
-
+        <script type="text/javascript" src="js/indexPost.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 
-  <!-- Ionic's root component and where the app will load -->
-  <ion-app></ion-app>
-
-  <!-- The polyfills js is generated during the build process -->
-  <script src="build/polyfills.js"></script>
-
-  <!-- The vendor js is generated during the build process
-       It contains all of the dependencies in node_modules -->
-  <script src="build/vendor.js"></script>
-
-  <!-- The main bundle js is generated during the build process -->
-  <script src="build/main.js"></script>
+    <section>
+    <h1>teste json</h1>
+    <div id="pesquisarForm"> 
+    	<input type="text" name="txtnome">
+    	<input type="hidden" name="txtword" value="ad0haigdnai">
+    	<button id="pesquisar" onclick="carregaItens();">pesquisar</button>
+    </div>
+    <h3></h3>
+    <table id="minhaTabela">
+    <caption>Teste consulta json-php-mysql</caption>
+    <thead>
+    <th>matricula</th>
+    <th>nome</th>
+    <th>email</th>
+    </thead>
+    <tbody>
+    </tbody>
+    </table>
+    </section>
 
 </body>
 </html>
